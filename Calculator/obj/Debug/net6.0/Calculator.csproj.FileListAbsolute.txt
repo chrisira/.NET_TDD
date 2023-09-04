@@ -97,3 +97,6 @@ C:\Users\Bishop\Documents\angular projects\Calculator\Calculator\obj\Debug\net6.
 C:\Users\Bishop\Documents\angular projects\Calculator\Calculator\obj\Debug\net6.0\Calculator.pdb
 C:\Users\Bishop\Documents\angular projects\Calculator\Calculator\obj\Debug\net6.0\Calculator.genruntimeconfig.cache
 C:\Users\Bishop\Documents\angular projects\Calculator\Calculator\obj\Debug\net6.0\ref\Calculator.dll
+C:\Users\Bishop\Documents\angular projects\Calculator\Calculator\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Bishop\Documents\angular projects\Calculator\Calculator\bin\Debug\net6.0\Domain.dll
+C:\Users\Bishop\Documents\angular projects\Calculator\Calculator\bin\Debug\net6.0\Domain.pdb

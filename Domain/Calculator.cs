@@ -2,7 +2,7 @@
 {
     public class Calculator
     {
-        int Sum(int left, int right)
+        public int Sum(int left, int right)
         {
             return left + right;
         }
