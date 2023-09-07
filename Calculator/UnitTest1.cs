@@ -11,7 +11,7 @@ namespace CalculatorTest
 
             if(result != 4)
             {
-                throw new Exception();
+                throw new Exception($"The Sum(2,2) was expected to return 4 but it returned {result}");
 
             }
 

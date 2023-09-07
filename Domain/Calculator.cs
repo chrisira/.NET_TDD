@@ -10,7 +10,8 @@ namespace Domain
     {
         public int Sum(int left, int right)
         {
-            return left + right;
+            //return left + right;
+            return 5;
         }
     }
 }
