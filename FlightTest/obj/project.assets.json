@@ -1759,6 +1759,16 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Domain.Tests/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.Tests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Tests.dll": {}
+        }
       }
     }
   },
@@ -5645,10 +5655,16 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Domain.Tests/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Tests/Domain.Tests.csproj",
+      "msbuildProject": "../Domain.Tests/Domain.Tests.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Domain.Tests >= 1.0.0",
       "FluentAssertions >= 6.12.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "coverlet.collector >= 3.2.0",
@@ -5688,7 +5704,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Bishop\\Documents\\angular projects\\FlightTest\\Domain.Tests\\Domain.Tests.csproj": {
+              "projectPath": "C:\\Users\\Bishop\\Documents\\angular projects\\FlightTest\\Domain.Tests\\Domain.Tests.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
